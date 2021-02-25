@@ -1,0 +1,21 @@
+.DS_Store
+.env
+
+.history
+build_*
+
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+.vscode/symbols.json
+.vs/*
+
+/coverage
+/app/coverage
+/jest-coverage
