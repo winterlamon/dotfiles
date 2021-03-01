@@ -1,0 +1,8 @@
+alias gco='git checkout'
+alias gs='git status'
+alias gsh='git show HEAD'
+alias grab='git rebase --abort'
+alias grim='git rebase -i origin/master'
+alias grc='git rebase --continue'
+alias gdc='git diff --cached'
+alias gss='f() { git stash show stash@{$1} }; f'
